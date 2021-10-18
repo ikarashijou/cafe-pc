@@ -22,7 +22,7 @@
                     <a class="nav-link" href="sinUp.php">新規登録</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">ログイン</a>
+                    <a class="nav-link" href="login.php">ログイン</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">ホーム</a>
