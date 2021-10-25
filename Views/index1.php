@@ -8,32 +8,30 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
+    <link rel="stylesheet" type="text/css" href="/public/css/nav.css">
+    <link rel="stylesheet" type="text/css" href="/public/css/index1.css">
     <title>JISAKU</title>
   </head>
   <body>
-  <nav class="navbar navbar-expand-sm navbar-dark bg-dark mt-3 mb-3">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav4" aria-controls="navbarNav4" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <a class="navbar-brand" href="#">コミュニティー</a>
-        <div class="collapse navbar-collapse">
-            <ul class="navbar-nav">
-                <li class="nav-item active">
-                    <a class="nav-link" href="sinUp.php">新規登録</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="login.php">ログイン</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">ホーム</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">質問</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
+  <?php include('nav.php'); ?>
 
+  <div id="body">
+    <div id="main">
+      <div class="white-boder home-title boder-r-10">HOME</div>
+      <div class="white-boder home-textarea boder-r-10">
+        <div class="name"><p>ゲスト</p></div>
+        <textarea name="text" rows="6" cols="60">テキストエリアです。</textarea>
+        <div class="col-md"><button type="button" class="btn btn-primary">Primary</button></div>
+      </div>
+      <div class="white-boder home-data boder-r-10"></div>
+    </div>
+    <div id="sub">
+      <div class="sub-top boder-r-20">
+        <div class="sub-top-img"><img src="/public/img/B.I.png"></div>
+      </div>
+      <div class="sub-second boder-r-20"></div>
+    </div>
+  </div>
 
     <!-- ここにメインの処理を書く -->
 

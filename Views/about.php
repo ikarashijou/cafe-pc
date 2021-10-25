@@ -9,18 +9,32 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
     <link rel="stylesheet" type="text/css" href="/public/css/nav.css">
-    <link rel="stylesheet" type="text/css" href="/public/css/index.css">
+    <link rel="stylesheet" type="text/css" href="/public/css/index1.css">
     <title>JISAKU</title>
   </head>
   <body>
-    <!-- ここにメインの処理を書く -->
-    <?php include('nav.php'); ?>
+  <?php include('nav.php'); ?>
 
-    <div id="container"> <!-- コンテナ -->
-    <div id="itemA">A</div> <!-- アイテム -->
-    <div id="itemB">B</div> <!-- アイテム -->
-    <div id="itemC">C</div> <!-- アイテム -->
+  <div class="card">
+    <div class="card-header">
+        <ul class="nav nav-tabs nav-tabs-neutral justify-content-center" role="tablist" data-background-color="orange">
+        <li class="nav-item">
+            <a class="nav-link active" data-toggle="tab" href="#home1" role="tab">Home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="#profile1" role="tab">Profile</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="#messages1" role="tab">Messages</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="#settings1" role="tab">Settings</a>
+        </li>
+        </ul>
     </div>
+<div class="card-body">
+
+    <!-- ここにメインの処理を書く -->
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

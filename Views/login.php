@@ -9,10 +9,12 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
+    <link rel="stylesheet" type="text/css" href="/public/css/nav.css">
     <title>JISAKU</title>
 </head>
 
 <body>
+    <?php include('nav.php'); ?>
     <br>
     <h1 class="text-center">サインイン</h1>
     <br>
@@ -24,10 +26,6 @@
         <div class="row">
             <div class="col-md">
                 <form name="form" method="post" action="index.php">
-                    <div class="form-group">
-                        <label>ID：</label>
-                        <input type="text" class="form-control" value="000" disabled>
-                    </div>
                     <div class="form-group">
                         <label>ユーザー名：</label>
                         <input type="text" class="form-control" placeholder="user name">
@@ -50,7 +48,9 @@
                 <button type="button" class="btn btn-outline-secondary btn-block" onclick="history.back()">戻る</button>
             </div>
             <div class="col-5">
-                <button type="button" class="btn btn-outline-primary btn-block" form="form">ログイン</button>
+                <button type="button" class="btn btn-outline-primary btn-block" form="form">ログイン
+
+                </button>
             </div>
         </div>
         <br>
